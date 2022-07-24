@@ -1,0 +1,16 @@
+PODS:
+  - AnalyticsPod (0.1.0)
+
+DEPENDENCIES:
+  - AnalyticsPod (from `../`)
+
+EXTERNAL SOURCES:
+  AnalyticsPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnalyticsPod: 10d5bb27e62c1fc1f2c51d96836e7b224644016f
+
+PODFILE CHECKSUM: c3d9cccdd3b82cda75e144d29d48009feb83db7c
+
+COCOAPODS: 1.11.3

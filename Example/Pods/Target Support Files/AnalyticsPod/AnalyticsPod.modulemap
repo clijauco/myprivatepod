@@ -1,0 +1,6 @@
+framework module AnalyticsPod {
+  umbrella header "AnalyticsPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

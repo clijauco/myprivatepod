@@ -6,6 +6,7 @@
 //  Copyright (c) 2022 clijauco@deloitte.com. All rights reserved.
 //
 
+import AnalyticsPod
 import UIKit
 
 class ViewController: UIViewController {
@@ -13,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.setBlack()
     }
 
     override func didReceiveMemoryWarning() {
