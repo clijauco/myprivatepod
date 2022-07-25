@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.view.setBlack()
+        AnalyticsManager.shared.logEvent(name: "test_only")
     }
 
     override func didReceiveMemoryWarning() {
