@@ -97,7 +97,7 @@
 		1E6A4A76FF0437AEFE90C3FAC322A313 /* GULSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5326D69977237FEFF995D5FD44E87230 /* GULSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F05CCCDF0BA026517D0160EA73246E3 /* WeakContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAFE4FE3622591232C72F579681C61 /* WeakContainer.swift */; };
 		1F249869E9829C4A1581A2578A791834 /* GDTCOREventDropReason.h in Headers */ = {isa = PBXBuildFile; fileRef = F080F61B874DEC8EBF225A2C833DD632 /* GDTCOREventDropReason.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1FCCD2CF288E4F1100FFA567 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCD2CE288E4F1100FFA567 /* AnalyticsManager.swift */; };
+		1FCCD2D1288E56FF00FFA567 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCD2D0288E56FF00FFA567 /* AnalyticsManager.swift */; };
 		22725E6FD2878D84FDB131550B91DC85 /* FirebaseCoreInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 34445FDC562B6B4D18D61B583EDD4D8E /* FirebaseCoreInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22D9E00AF5115E5ABFCE8B6C5124DA43 /* cct.nanopb.c in Sources */ = {isa = PBXBuildFile; fileRef = 791BAF868FCB90F873A59E65BAA69DD5 /* cct.nanopb.c */; };
 		231036F8B1C82C169793BDF05AF1D798 /* FIRBundleUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7E45AE95F2E2D9ADD368CD5736CD6F /* FIRBundleUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -656,7 +656,7 @@
 		1DCF5B2F7B6AC48BA23EB5E76C957A44 /* FIRInstallationsAuthTokenResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstallationsAuthTokenResult.h; path = FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h; sourceTree = "<group>"; };
 		1ED38AE8DA952FFCC4452ADFDE7F132D /* GDTCORUploadCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploadCoordinator.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadCoordinator.h; sourceTree = "<group>"; };
 		1F5C4F4D41D54D4FBFE86CA30D65F7A0 /* GDTCORMetricsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetricsController.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsController.h; sourceTree = "<group>"; };
-		1FCCD2CE288E4F1100FFA567 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		1FCCD2D0288E56FF00FFA567 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsManager.swift; path = AnalyticsPod/Classes/AnalyticsManager.swift; sourceTree = "<group>"; };
 		21B5C9B87CCC5C32F0CFDD553720764F /* FIRComponentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentType.h; path = FirebaseCore/Extension/FIRComponentType.h; sourceTree = "<group>"; };
 		224C60C0A569D6BB814A1904C749508F /* GoogleAppMeasurement-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleAppMeasurement-xcframeworks.sh"; sourceTree = "<group>"; };
 		22846A6AF5F4C8AC4B8E8F540ADB8CF7 /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h; sourceTree = "<group>"; };
@@ -826,7 +826,7 @@
 		9571AB3CA82657665892931BBCC680B9 /* GoogleDataTransport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleDataTransport-dummy.m"; sourceTree = "<group>"; };
 		95D62DE9442FBDAE6D9D094030DC6270 /* FIRInstallationsErrorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsErrorUtil.m; path = FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.m; sourceTree = "<group>"; };
 		95E82A276B032464A6C69046C48F43F4 /* GDTCORStorageEventSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORStorageEventSelector.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORStorageEventSelector.m; sourceTree = "<group>"; };
-		96097DBBD5A7C14321F424B8BBBC158F /* AnalyticsPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnalyticsPod; path = AnalyticsPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96097DBBD5A7C14321F424B8BBBC158F /* AnalyticsPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnalyticsPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9706E1074E24146682E4CD919F6DEA21 /* nanopb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.debug.xcconfig; sourceTree = "<group>"; };
 		970D95A81FE940C33F8F7DE1D2AB811B /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift; sourceTree = "<group>"; };
 		971914DA2B2C5D958C9C111FDD26816A /* GDTCORFlatFileStorage+Promises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDTCORFlatFileStorage+Promises.h"; path = "GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage+Promises.h"; sourceTree = "<group>"; };
@@ -1175,7 +1175,7 @@
 		30D9F54AD5A641BA6DD660146059450B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96097DBBD5A7C14321F424B8BBBC158F /* AnalyticsPod */,
+				96097DBBD5A7C14321F424B8BBBC158F /* AnalyticsPod.framework */,
 				E2B63D462DB7F827C4B11FD51E4F8E2D /* FirebaseCore */,
 				8CC9178C366942FD6FF6A115604EAD58 /* FirebaseCoreDiagnostics */,
 				148D0F9E8C7373FEAF40D800FC5F1BAA /* FirebaseCoreInternal */,
@@ -1278,7 +1278,7 @@
 		49A3F72F1B57E4E867FB896AD4D9890C /* AnalyticsPod */ = {
 			isa = PBXGroup;
 			children = (
-				1FCCD2CE288E4F1100FFA567 /* AnalyticsManager.swift */,
+				1FCCD2D0288E56FF00FFA567 /* AnalyticsManager.swift */,
 				C040751C56071E43DCCC1A5454735D67 /* Pod */,
 				55476E7A32FF28C17669CB210A18D7E7 /* Support Files */,
 			);
@@ -2361,7 +2361,7 @@
 			);
 			name = AnalyticsPod;
 			productName = AnalyticsPod;
-			productReference = 96097DBBD5A7C14321F424B8BBBC158F /* AnalyticsPod */;
+			productReference = 96097DBBD5A7C14321F424B8BBBC158F /* AnalyticsPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2372,6 +2372,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FC97E8D828F5D3DF18E439D440D8E2BC = {
+						LastSwiftMigration = 1340;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2529,7 +2534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCCD2CF288E4F1100FFA567 /* AnalyticsManager.swift in Sources */,
+				1FCCD2D1288E56FF00FFA567 /* AnalyticsManager.swift in Sources */,
 				2B891152D005C374320F851268256384 /* AnalyticsPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3250,6 +3255,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A2A55B615CFBA9ECF47CF774FF5D2EE /* AnalyticsPod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -3582,6 +3588,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D0975749ABEB2FE9B5C89A79D1ED332 /* AnalyticsPod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -3603,6 +3610,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
