@@ -359,7 +359,6 @@
 		F52EBA4C445CDEB606B4F4F6737C9608 /* GDTCCTCompressionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B369BEA58E9CA0DF333E5E22F2B621 /* GDTCCTCompressionHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F630DB6CC1FCC5ACB6416C647965DE0C /* FIRInstallationsBackoffController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53BF883E1C457A7E80BBCB90ED89D9BE /* FIRInstallationsBackoffController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F76B733BC8915AA5B1613348AB6C9074 /* FIRComponentContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A85E1EB539843DA0700DE4155E3E4127 /* FIRComponentContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F82CBA523CFD355597E5005037A84D8F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69092C04281F7D3A30FBD4560660C10 /* ReplaceMe.swift */; };
 		F8AD45D35F71E672AAC4E5C47C8B4DF6 /* FBLPromise+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AA3C64B72CB3B39B619DABE0E0BC74 /* FBLPromise+Delay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAA99120F777C35184D50626BA525EB5 /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C359BC4C67AE6EDB3B9AB7F383A3D3E /* FBLPromise+Do.m */; };
 		FAF7F9BFC96DC2D2113E69179B2C02E1 /* GDTCORFlatFileStorage+Promises.h in Headers */ = {isa = PBXBuildFile; fileRef = 971914DA2B2C5D958C9C111FDD26816A /* GDTCORFlatFileStorage+Promises.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -657,7 +656,7 @@
 		1DCF5B2F7B6AC48BA23EB5E76C957A44 /* FIRInstallationsAuthTokenResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstallationsAuthTokenResult.h; path = FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h; sourceTree = "<group>"; };
 		1ED38AE8DA952FFCC4452ADFDE7F132D /* GDTCORUploadCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploadCoordinator.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadCoordinator.h; sourceTree = "<group>"; };
 		1F5C4F4D41D54D4FBFE86CA30D65F7A0 /* GDTCORMetricsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetricsController.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsController.h; sourceTree = "<group>"; };
-		1FCCD2CE288E4F1100FFA567 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsManager.swift; path = ../../../../AnalyticsManager.swift; sourceTree = "<group>"; };
+		1FCCD2CE288E4F1100FFA567 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		21B5C9B87CCC5C32F0CFDD553720764F /* FIRComponentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentType.h; path = FirebaseCore/Extension/FIRComponentType.h; sourceTree = "<group>"; };
 		224C60C0A569D6BB814A1904C749508F /* GoogleAppMeasurement-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleAppMeasurement-xcframeworks.sh"; sourceTree = "<group>"; };
 		22846A6AF5F4C8AC4B8E8F540ADB8CF7 /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h; sourceTree = "<group>"; };
@@ -960,7 +959,6 @@
 		E45E2E2043BF3133897AE39724DE855C /* GDTCORDirectorySizeTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORDirectorySizeTracker.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORDirectorySizeTracker.h; sourceTree = "<group>"; };
 		E567531A09736BD9B875085E407855D1 /* FIRComponentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponentType.m; path = FirebaseCore/Sources/FIRComponentType.m; sourceTree = "<group>"; };
 		E61F39141E082F51C4A8049AB0981C4D /* GDTCORMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORMetrics.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORMetrics.m; sourceTree = "<group>"; };
-		E69092C04281F7D3A30FBD4560660C10 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AnalyticsPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E6976CD0B3254EB7E7D12284A4A0CE86 /* GDTCORMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetrics.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetrics.h; sourceTree = "<group>"; };
 		E8761F523E4DB42AE3E77ED0CCDA88A3 /* FirebaseCoreInternal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCoreInternal.debug.xcconfig; sourceTree = "<group>"; };
 		E8847E974CC20316A02AF543A0490CA5 /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
@@ -1280,7 +1278,7 @@
 		49A3F72F1B57E4E867FB896AD4D9890C /* AnalyticsPod */ = {
 			isa = PBXGroup;
 			children = (
-				E69092C04281F7D3A30FBD4560660C10 /* ReplaceMe.swift */,
+				1FCCD2CE288E4F1100FFA567 /* AnalyticsManager.swift */,
 				C040751C56071E43DCCC1A5454735D67 /* Pod */,
 				55476E7A32FF28C17669CB210A18D7E7 /* Support Files */,
 			);
@@ -1357,7 +1355,6 @@
 				D667ECF4BB6D0ADF494C1794CF34E6B2 /* AnalyticsPod-umbrella.h */,
 				2D0975749ABEB2FE9B5C89A79D1ED332 /* AnalyticsPod.debug.xcconfig */,
 				7A2A55B615CFBA9ECF47CF774FF5D2EE /* AnalyticsPod.release.xcconfig */,
-				1FCCD2CE288E4F1100FFA567 /* AnalyticsManager.swift */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AnalyticsPod";
@@ -2534,7 +2531,6 @@
 			files = (
 				1FCCD2CF288E4F1100FFA567 /* AnalyticsManager.swift in Sources */,
 				2B891152D005C374320F851268256384 /* AnalyticsPod-dummy.m in Sources */,
-				F82CBA523CFD355597E5005037A84D8F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
