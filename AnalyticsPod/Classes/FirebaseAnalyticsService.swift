@@ -20,7 +20,14 @@ public final class FirebaseAnalyticsService: AnalyticsServicing {
         events.forEach { item in
             print("Event reported: \(item.name)")
             print("Metadata: \(item.parameters)")
-            Analytics.logEvent( item.name, parameters: item.parameters)
+            if item.type == .Screen {
+                Analytics.logEvent(AnalyticsEventScreenView,
+                                   parameters: [AnalyticsParameterScreenName: item.name,
+                                               AnalyticsParameterScreenClass: "\(item.name)Class"])
+            }
+            else {
+                Analytics.logEvent( item.name, parameters: item.parameters)
+            }
         }
     }
 }
