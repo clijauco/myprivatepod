@@ -98,6 +98,10 @@
 		1F05CCCDF0BA026517D0160EA73246E3 /* WeakContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAFE4FE3622591232C72F579681C61 /* WeakContainer.swift */; };
 		1F249869E9829C4A1581A2578A791834 /* GDTCOREventDropReason.h in Headers */ = {isa = PBXBuildFile; fileRef = F080F61B874DEC8EBF225A2C833DD632 /* GDTCOREventDropReason.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1FCCD2D1288E56FF00FFA567 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCD2D0288E56FF00FFA567 /* AnalyticsManager.swift */; };
+		1FCCD2D6288E65C500FFA567 /* AnalyticsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCD2D4288E65C500FFA567 /* AnalyticsAction.swift */; };
+		1FCCD2D7288E65C500FFA567 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCD2D5288E65C500FFA567 /* AnalyticsService.swift */; };
+		1FCCD2D9288E667200FFA567 /* FirebaseAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCD2D8288E667200FFA567 /* FirebaseAnalyticsService.swift */; };
+		1FCCD2DB288E6ACA00FFA567 /* AWSAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCD2DA288E6ACA00FFA567 /* AWSAnalyticsService.swift */; };
 		22725E6FD2878D84FDB131550B91DC85 /* FirebaseCoreInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 34445FDC562B6B4D18D61B583EDD4D8E /* FirebaseCoreInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22D9E00AF5115E5ABFCE8B6C5124DA43 /* cct.nanopb.c in Sources */ = {isa = PBXBuildFile; fileRef = 791BAF868FCB90F873A59E65BAA69DD5 /* cct.nanopb.c */; };
 		231036F8B1C82C169793BDF05AF1D798 /* FIRBundleUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7E45AE95F2E2D9ADD368CD5736CD6F /* FIRBundleUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -657,6 +661,10 @@
 		1ED38AE8DA952FFCC4452ADFDE7F132D /* GDTCORUploadCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploadCoordinator.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadCoordinator.h; sourceTree = "<group>"; };
 		1F5C4F4D41D54D4FBFE86CA30D65F7A0 /* GDTCORMetricsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetricsController.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsController.h; sourceTree = "<group>"; };
 		1FCCD2D0288E56FF00FFA567 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsManager.swift; path = AnalyticsPod/Classes/AnalyticsManager.swift; sourceTree = "<group>"; };
+		1FCCD2D4288E65C500FFA567 /* AnalyticsAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsAction.swift; path = AnalyticsPod/Classes/AnalyticsAction.swift; sourceTree = "<group>"; };
+		1FCCD2D5288E65C500FFA567 /* AnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsService.swift; path = AnalyticsPod/Classes/AnalyticsService.swift; sourceTree = "<group>"; };
+		1FCCD2D8288E667200FFA567 /* FirebaseAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirebaseAnalyticsService.swift; path = AnalyticsPod/Classes/FirebaseAnalyticsService.swift; sourceTree = "<group>"; };
+		1FCCD2DA288E6ACA00FFA567 /* AWSAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AWSAnalyticsService.swift; path = AnalyticsPod/Classes/AWSAnalyticsService.swift; sourceTree = "<group>"; };
 		21B5C9B87CCC5C32F0CFDD553720764F /* FIRComponentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentType.h; path = FirebaseCore/Extension/FIRComponentType.h; sourceTree = "<group>"; };
 		224C60C0A569D6BB814A1904C749508F /* GoogleAppMeasurement-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleAppMeasurement-xcframeworks.sh"; sourceTree = "<group>"; };
 		22846A6AF5F4C8AC4B8E8F540ADB8CF7 /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h; sourceTree = "<group>"; };
@@ -1278,7 +1286,11 @@
 		49A3F72F1B57E4E867FB896AD4D9890C /* AnalyticsPod */ = {
 			isa = PBXGroup;
 			children = (
+				1FCCD2D4288E65C500FFA567 /* AnalyticsAction.swift */,
+				1FCCD2D5288E65C500FFA567 /* AnalyticsService.swift */,
 				1FCCD2D0288E56FF00FFA567 /* AnalyticsManager.swift */,
+				1FCCD2D8288E667200FFA567 /* FirebaseAnalyticsService.swift */,
+				1FCCD2DA288E6ACA00FFA567 /* AWSAnalyticsService.swift */,
 				C040751C56071E43DCCC1A5454735D67 /* Pod */,
 				55476E7A32FF28C17669CB210A18D7E7 /* Support Files */,
 			);
@@ -2534,8 +2546,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCCD2D9288E667200FFA567 /* FirebaseAnalyticsService.swift in Sources */,
 				1FCCD2D1288E56FF00FFA567 /* AnalyticsManager.swift in Sources */,
 				2B891152D005C374320F851268256384 /* AnalyticsPod-dummy.m in Sources */,
+				1FCCD2D7288E65C500FFA567 /* AnalyticsService.swift in Sources */,
+				1FCCD2DB288E6ACA00FFA567 /* AWSAnalyticsService.swift in Sources */,
+				1FCCD2D6288E65C500FFA567 /* AnalyticsAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

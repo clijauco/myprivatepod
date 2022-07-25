@@ -14,7 +14,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        AnalyticsManager.shared.logEvent(name: "test_only")
+        //AnalyticsManager.shared.logEvent(name: "test_only")
+        
+        let firebaseService = FirebaseAnalyticsService()
+        
+        AnalyticsManager.shared.add(services: [firebaseService])
+        AnalyticsManager.shared.sendLogs()
     }
 
     override func didReceiveMemoryWarning() {
